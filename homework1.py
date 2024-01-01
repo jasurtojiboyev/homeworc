@@ -16,7 +16,7 @@ def find_and_return_odd_repeating_number(input_list):
             odd_repeating_number = number
     print(odd_repeating_number)
 
-my_list = [1, 2, 3, 4, 5, 3, 2, 7, 7, 8, 9, 10, 1]
+my_list = [1, 2, 3, 4, 5, 3, 2, 7, 7, 8, 9, 1]
 
 result = find_and_return_odd_repeating_number(my_list)
 print("Qaytalanib kelayotgan toq son:", result)
