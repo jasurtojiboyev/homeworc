@@ -1,7 +1,7 @@
 my_input = int(input("son kriting :"))
 x = 1
 while x <= my_input:
-    num = x ** 2
+    num = 2 ** x
     if my_input >= num:
         print(x, num)
-    x += 11
+        x += 1

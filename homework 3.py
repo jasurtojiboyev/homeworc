@@ -3,6 +3,7 @@ def process_list(input_list):
     if input_number in input_list:
         input_list.remove(input_number)
         input_list.append(input_number)
+        input_list.append(input_number)
         print(my_list)
     else:
         print("fatalnaya oshibka !!!!")
